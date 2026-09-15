@@ -21,13 +21,12 @@ title: Danqi Lang
       <span>Photo</span>
     </div>
 
-  </div>
-
+ 
 
   <div>
     <h1 class="about-name">Danqi Lang</h1>
     <div class="about-position">
-      PhD Student · [Your Group Name]<br>
+      PhD Student · [Gulliver]<br>
       ESPCI Paris · Supervisors: Ludovic Berthier &amp; Camille Scalliet
     </div>
     <p class="about-bio">
@@ -46,6 +45,7 @@ title: Danqi Lang
       <a class="about-link" href="cv.pdf" target="_blank">CV ↓</a>
     </div>
   </div>
+
 
 </div>
 </section>
@@ -68,11 +68,13 @@ title: Danqi Lang
     <h3>Simulational Studies of the Glass Transition</h3>
     <p>
       PhD project at ESPCI Paris under Ludovic Berthier and Camille Scalliet.
-      Using molecular dynamics simulations to investigate the structural and
-      dynamical properties of glass-forming liquids near the glass transition.
-      [Add a sentence on the systems studied and the key questions you are addressing.]
+
+      Dense liquids gradually solidify at low temperature via a physical process called the glass transition. While well-known and understood at the macrosopic scale, very little is known from direct experimental measurements about the dynamics of molecules in the vicinity of the glass transition. A microscopic understanding of this important process remains a lively research problem, which has resisted several decades of careful studies. In the last 10 years, non-linear dielectric measurements have been performed in molecular systems, that are interpreted as a unique way to probe emerging glassy correlations in these systems. In parallel, modern computer simulations techniques were recently developed to study the motion of molecular models at very long times, revealing the existence of a complex hierarchy of correlated molecular motion in these dense glassy fluids. While the emergence of non-trivial correlations in liquids near a glass transition is well accepted, there is no consensus and no theoretical understanding of their precise nature. Are these correlations related to an underlying phase transition accompanied by structural correlations, or instead are these correlations purely dynamic in nature, characterising the correlated motion of molecules with no relation to any static phase transition?
+
+In this project we propose to use the newly developed numerical approaches to systematically measure non-linear response functions similar to the ones determined experimentally, while resolving in space and time the molecular dynamics that give rise to this signal. By measuring systematically static and dynamic correlations, and their relation to non-linear response functions, a microscopic interpretation of the physical content of non-linear response functions will be available. Ultimately, this work will provide the missing link between the competing theoretical approaches and the available experimental observations.
     </p>
   </div>
+
 
   <!-- ── MPI-PKS ── -->
   <div class="project">
@@ -223,12 +225,11 @@ title: Danqi Lang
 <section id="publications">
 <p class="section-label">Publications</p>
 <div class="pub-list">
-
   <div class="pub-item">
     <div class="pub-year">2025</div>
     <div class="pub-body">
       <div class="pub-title">Relaxations in glass-forming systems: the anti-correlation between excitations and locally-favored structures</div>
-      <div class="pub-authors">D. Lang, [Co-authors], P. Royall, C. Scalliet</div>
+      <div class="pub-authors">D. Lang, P. Royall, C. Scalliet</div>
       <div class="pub-journal">Physical Review E 111, 055415 (2025) — <em>Editors' Suggestion</em></div>
       <div class="pub-links">
         <a class="pub-link" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.055415" target="_blank" rel="noopener">DOI</a>
@@ -240,7 +241,7 @@ title: Danqi Lang
     <div class="pub-year">2025</div>
     <div class="pub-body">
       <div class="pub-title">NVU view on energy polydisperse Lennard-Jones systems</div>
-      <div class="pub-authors">D. Lang, [Co-authors], J. C. Dyre, L. Costigliola</div>
+      <div class="pub-authors">D. Lang, J. C. Dyre, L. Costigliola</div>
       <div class="pub-journal">Physical Review E 111, 025420 (2025)</div>
       <div class="pub-links">
         <a class="pub-link" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.025420" target="_blank" rel="noopener">DOI</a>
@@ -252,13 +253,14 @@ title: Danqi Lang
     <div class="pub-year">2025</div>
     <div class="pub-body">
       <div class="pub-title">Link Node: a method to characterize the chain topology of intrinsically disordered proteins</div>
-      <div class="pub-authors">D. Lang, [Co-authors], J.-Y. Li</div>
+      <div class="pub-authors">D. Lang, L. Chen, M. Zhang, H. Song, J.-Y. Li</div>
       <div class="pub-journal">Quantitative Biology (2025)</div>
       <div class="pub-links">
         <a class="pub-link" href="https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.96" target="_blank" rel="noopener">DOI</a>
       </div>
     </div>
   </div>
+
 
 </div>
 </section>
@@ -308,7 +310,7 @@ title: Danqi Lang
   <div class="contact-item">
     <div class="contact-label">Email</div>
     <div class="contact-value">
-      <a href="mailto:danqi.lang@espci.fr">danqi.lang<br>@phys.ens.fr</a>
+      <a href="mailto:danqi.lang@espci.fr">danqi.lang<br>@espci.fr</a>
     </div>
   </div>
   <div class="contact-item">
