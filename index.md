@@ -16,7 +16,7 @@ title: Danqi Lang
     <img src="photo.jpeg" alt="Danqi Lang">
   </div>
 
- 
+
 
   <div>
     <h1 class="about-name">Danqi Lang</h1>
@@ -68,6 +68,13 @@ title: Danqi Lang
 
 In this project we propose to use the newly developed numerical approaches to systematically measure non-linear response functions similar to the ones determined experimentally, while resolving in space and time the molecular dynamics that give rise to this signal. By measuring systematically static and dynamic correlations, and their relation to non-linear response functions, a microscopic interpretation of the physical content of non-linear response functions will be available. Ultimately, this work will provide the missing link between the competing theoretical approaches and the available experimental observations.
     </p>
+
+<img class="project-img" src="research/glass-transition.mp4" alt="Glass transition simulation">
+
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/glass-transition.mp4</span>
+  </div>
+
   </div>
 
 
@@ -94,6 +101,11 @@ In this project we propose to use the newly developed numerical approaches to sy
       &amp;
       <a href="https://www.ryotatakaki.com/" target="_blank" rel="noopener">Dr. Ryota Takaki</a>
     </p>
+<img class="project-img" src="research/active-gel.jpg" alt="Active gel model">
+
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/active-gel.jpg</span>
+  </div>
   </div>
 
   <!-- ── Institut Curie ── -->
@@ -116,6 +128,12 @@ In this project we propose to use the newly developed numerical approaches to sy
       &amp;
       <a href="https://institut-curie.org/person/carles-blanch-mercader" target="_blank" rel="noopener">Dr. Carles Blanch Mercader</a>
     </p>
+
+  <!-- IMAGE: drop cochlea.jpg into research/ folder, then replace these 3 lines with:
+       <img class="project-img" src="research/cochlea.jpg" alt="Cochlea model"> -->
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/cochlea.jpg</span>
+  </div>
   </div>
 
   <!-- ── ESPCI internship ── -->
@@ -140,6 +158,11 @@ In this project we propose to use the newly developed numerical approaches to sy
       ·
       <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.055415" target="_blank" rel="noopener">PRE 111, 055415 (2025)</a>
     </p>
+<img class="project-img" src="research/excitations-lfs.jpg" alt="Excitations and LFS">
+
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/excitations-lfs.jpg</span>
+  </div>
   </div>
 
   <!-- ── Roskilde ── -->
@@ -164,6 +187,11 @@ In this project we propose to use the newly developed numerical approaches to sy
       ·
       <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.025420" target="_blank" rel="noopener">PRE 111, 025420 (2025)</a>
     </p>
+<img class="project-img" src="research/nvu-polydisperse.jpg" alt="NVU polydisperse LJ">
+
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/nvu-polydisperse.jpg</span>
+  </div>
   </div>
 
   <!-- ── Zhejiang / IDP ── -->
@@ -187,6 +215,11 @@ In this project we propose to use the newly developed numerical approaches to sy
       ·
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.96" target="_blank" rel="noopener">Quantitative Biology (2025)</a>
     </p>
+
+ <img class="project-img" src="index.assets/link-node-idp.jpg" alt="Link node in IDP">
+  <div class="project-img-wrap">
+    <span class="project-img-hint">research/link-node-idp.jpg</span>
+  </div>
   </div>
 
 </div>
@@ -402,4 +435,3 @@ In this project we propose to use the newly developed numerical approaches to sy
   </div>
 </div>
 </section>
-
