@@ -1,0 +1,236 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[UTF8]{ctexart}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+    \pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+
+\usepackage{hyperref}
+    \hypersetup{
+        colorlinks=true,breaklinks,
+	    urlcolor=[rgb]{0,0.3,0,9},
+        linkcolor=[rgb]{0,0.4,0.8},
+	}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\usepackage[letterpaper,margin=1in]{geometry}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE DANQI LANG}} & Email: \href{mailto:}{danqilang@gmail.com}\\ & Mobile:
+  \href{Mobile:}{+33 744764705}\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading{Zhejiang University}{Hangzhou, Zhejiang, China}{Bachelor of Science in Physics}{2019.09 - 2023.06}{\scriptsize \textit{ \footnotesize{\newline{}-\textbf{Overall GPA:} 3.87/4.0(87.74/100); }\textbf{The third year GPA:} 3.96/4.0(90.08/100); \textbf{GPA Ranking:} 7/67}}
+
+\resumeSubheading{École Normale Supérieure (ENS) - PSL}{Paris, France}{Master in the International Centre for Fundamental Physics (ICFP)}{2023.09 - 2025.08}{\scriptsize \textit{ \footnotesize{\newline{}-\textbf{Overall GPA:} 16.5/20 (M1), 15.2/20 (M2)}}}
+
+\resumeSubheading{École Supérieure de Physique et de Chimie Industrielles - PSL}{Paris, France}{PhD in Physics; Supervisor: Ludovic Berthier, Camille Scalliet (ENS) }{2025.10 - so far}
+
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{~~RESEARCH EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading{Zhejiang University}{Institute of Condensed Matter Physics}
+    {Intern, Advisor: \href{https://person.zju.edu.cn/en/jingyuan}{Prof. Jing-Yuan Li}}{2021.03 - 2023.09}
+    \resumeItemListStart
+        \resumeItem{Topic}{Link Node: a method to characterize the chain topology of intrinsically disordered proteins (IDPs)}( \href{https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.96}{\textit{Lang et al. Quantitative Biology (2025)}})
+            \begin{itemize}
+                \item Performed All-atom Molecular Dynamic simulations to sample the configurations of IDPs.
+
+                \item Characterized the chain topology of IDPs by \emph{Link Node}, a specific structure that related to the slow dynamics.
+
+            \end{itemize}
+
+      \resumeItemListEnd
+
+    \resumeSubheading{École Supérieure de Physique et de Chimie Industrielles}{Gulliver laboratory}
+    {Intern, Advisor: \href{https://paddyroyall.github.io/padrus/index.html}{Prof. Paddy Royall} \& \href{https://camillescalliet.github.io/}{Dr. Camille Scalliet} (ENS)}{2024.02 - 2024.06}
+    \resumeItemListStart
+    \resumeItem{Topic}{Relaxations in glass-forming systems: the anti-correlation between excitations and locally-favored structures}(\href{https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.055415}{\textit{Lang et al, PRE (2025) - Editors' Suggestion}})
+
+    \begin{itemize}
+                \item Performed Molecular Dynamic simulations on Kob-Anderson mixtures to investigate the relaxation mechanism in super-cooling liquids.
+
+                \item Analyzed the spatial relationship between structures (locally favored structures) and dynamics (excitations).
+    \end{itemize}
+    \resumeItemListEnd
+
+
+    \resumeSubheading{Roskilde University}{Department of Science and Environment}
+    {Intern, Advisor: \href{https://jcdyre.dk/}
+    {Prof. Jeppe Dyre} \& \href{https://forskning.ruc.dk/en/persons/lorenzoc)}{Prof. Lorenzo Costigliola}}{2024.08 - 2024.09}
+    \resumeItemListStart
+    \resumeItem{Topic}{NVU view on energy polydisperse Lennard-Jones systems (\href{https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.025420}{\textit{Lang et. al, PRE (2025)}})}
+
+    \begin{itemize}
+                \item Performed GPU-based MD simulations on high-performance supercomputers to investigate the energy polydisperse Lennard-Jones systems.
+
+                \item Quantified the hidden scale invariance in energy polydisperse systems.
+
+            \end{itemize}
+    \resumeItemListEnd
+
+    \resumeSubheading{Institute Curie}{Physics of Cells and Cancer (UMR168)}
+    {Intern, Advisor: \href{https://institut-curie.org/person/pascal-martin}
+    {Prof. Pascal Martin} \& \href{https://institut-curie.org/person/carles-blanch-mercader)}{Dr. Carles Blanch Mercader}}{2025.04 - 2025.06}
+    \resumeItemListStart
+    \resumeItem{Topic}{Two-tone interference  in a nonlinear model of the ear's cochlea based on critical oscillators}
+
+    \begin{itemize}
+                \item Performed numerical simulations to study basilar membrane displacement under two-tone stimulation.
+
+                \item Analyzed the asymmetric behavior in both two-tone suppression and two-tone distortion products.
+
+            \end{itemize}
+    \resumeItemListEnd
+
+    \resumeSubheading{Max Planck Institute for the Physics of Complex Systems}{Dresden, Germany}
+    {Intern, Advisor: \href{https://ricardalertgroup.wixsite.com/alertgroup}
+    {Dr. Ricard Alert} \& \href{https://www.ryotatakaki.com/}{Dr. Ryota Takaki}}{2025.07 - 2025.08}
+    \resumeItemListStart
+    \resumeItem{Topic}{Modeling the Disruption of Aging by Activity in Glassy Active Gels}
+
+    \begin{itemize}
+                \item Studied the impact of binding kinetics on the rheology of active polar gels in the presence of disorder in binding energies, using the trap model as a theoretical framework.
+
+                \item Combined analytical predictions with numerical simulations to investigate how motor activity may prevent aging or disrupt the glassy state of active gels.
+
+            \end{itemize}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------PROJECTS-----------------
+% \vspace{-5pt}
+% \section{~~PROJECTS}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Clustering the ensemble of an intrinsically disordered protein trajectory based on the CATS algorithm}{Took the dihedral coordinates as descriptors and converted them to index values according to the distribution curve. Generated the clustering according to the similarity between the index values of each frame. Obtained the result after cluster relaxation.}
+% \vspace{2pt}
+% \resumeSubItem{Wireless power transfer}{Designed a device for wireless power transmission in the form of the magnetic near-field. Equipped multifunctional secondary coils to meet different needs(2020 National Undergraduate Physics Experiment Competition).}
+% \vspace{2pt}
+% \resumeSubItem{Blown fuse}{Designed a model and performed the simulation by Comsol software. Analyzed the influence of parameters such as fuse radius, length, material, and airflow rate on the blowing time of the fuse. Compared the experimental and computational data, and performed error analysis.(CUPT,2021, Problem 8).}
+% \vspace{2pt}
+% \resumeSubItem{Singing Ferrite}{Derived the lateral and longitudinal vibration equations of ferrite based on a theoretical model. Built an experimental platform to measure the sound characteristics of ferrite under an alternating magnetic field. Collected and analysed the data by Au software(CUPT,2020, Problem 4).}
+% \vspace{2pt}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+
+
+% \section{~~PUBLICATIONS}
+% \begin{description}[font=$\bullet$]
+%     \item
+% \end{description}
+
+%-----------Awards-----------------
+\section{~~HONORS AND AWARDS}
+\begin{description}[font=$\bullet$]
+\item {PSL Scholarship, 2023 - 2025}
+\vspace{-5pt}
+\item {Outstanding graduates of Zhejiang University, 2023}
+\vspace{-5pt}
+\item {First Prize, The Chinese Mathematics Competitions, 2021 \& 2020}
+\vspace{-5pt}
+\item {Honorable Mention, Mathematical Contest In Modeling Certificate of Achievement, 2021}
+\vspace{-5pt}
+\item {First Prize, Zhejiang University Physicists' Tournament, 2021}
+\vspace{-5pt}
+\item {Second Prize, National Undergraduate Physics Experiment Competition, 2020 }
+\vspace{-5pt}
+\item {First Prize, Zhejiang University Scholarship，2020}
+\vspace{-5pt}
+\item {Outstanding Student，2020}
+\vspace{-5pt}
+
+\end{description}
+
+\vspace{-5pt}
+
+\section{~~PROFESSIONAL SKILLS}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Computer Competencies}{~~~~~~Python, C, C++, Matlab}
+	\resumeSubItem{Platforms and Tools}{~~~~ Gromacs, Lammps, RUMD, Comsol}
+
+\resumeSubHeadingListEnd
+
+\end{document}
