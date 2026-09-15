@@ -13,13 +13,8 @@ title: Danqi Lang
 <p class="section-label">About</p>
 <div class="about-grid">
   <div class="photo-wrap">
-    <img src="photo.jpeg" alt="Danqi LANG">
-      <svg width="16" height="16" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1">
-        <circle cx="12" cy="8" r="4"/>
-        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
-      </svg>
-      <span>Photo</span>
-    </div>
+    <img src="photo.jpeg" alt="Danqi Lang">
+  </div>
 
  
 
@@ -38,7 +33,7 @@ title: Danqi Lang
       systems.
     </p>
     <div class="about-links">
-      <a class="about-link" href="mailto:danqi.lang@phys.ens.fr">Email</a>
+      <a class="about-link" href="mailto:danqi.lang@espci.fr">Email</a>
       <a class="about-link" href="https://github.com/DanqiLANG" target="_blank" rel="noopener">GitHub</a>
       <a class="about-link" href="https://scholar.google.com/citations?user=LstND5AAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
       <a class="about-link" href="#" target="_blank" rel="noopener">ORCID</a>
@@ -277,22 +272,82 @@ In this project we propose to use the newly developed numerical approaches to sy
 <div class="talk-list">
 
   <div class="talk-item">
+    <div class="talk-year">2026</div>
+    <div class="talk-body">
+      <div class="talk-title">Women in Nonequilibrium Statistical Physics</div>
+      <div class="talk-venue">Women in Nonequilibrium Statistical Physics</div>
+      <div class="talk-location">Leuven, Belgium · September 2026</div>
+      <span class="talk-type">Talk</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2026</div>
+    <div class="talk-body">
+      <div class="talk-title">PSL Soft Matter Day</div>
+      <div class="talk-venue">PSL Soft Matter Day</div>
+      <div class="talk-location">Paris, France · July 2026</div>
+      <span class="talk-type">Poster</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2026</div>
+    <div class="talk-body">
+      <div class="talk-title">Viscous Liquids and the Glass Transition</div>
+      <div class="talk-venue">Viscous Liquids and the Glass Transition</div>
+      <div class="talk-location">Roskilde, Denmark · May 2026</div>
+      <span class="talk-type">Talk</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2026</div>
+    <div class="talk-body">
+      <div class="talk-title">Journées de Physique Statistique</div>
+      <div class="talk-venue">Journées de Physique Statistique</div>
+      <div class="talk-location">Paris, France · January 2026</div>
+      <span class="talk-type">Flash talk</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
     <div class="talk-year">2025</div>
     <div class="talk-body">
-      <div class="talk-title">[Title of your talk or poster]</div>
-      <div class="talk-venue">[Conference name]</div>
-      <div class="talk-location">[City, Country]</div>
-      <span class="talk-type">Talk</span>
+      <div class="talk-title">PC2-2025: Active Matter — the Synergy between Maths and Physics</div>
+      <div class="talk-venue">PC2-2025 Active Matter</div>
+      <div class="talk-location">France · May–June 2025</div>
+      <span class="talk-type">Poster</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2025</div>
+    <div class="talk-body">
+      <div class="talk-title">Viscous Liquids and the Glass Transition</div>
+      <div class="talk-venue">Viscous Liquids and the Glass Transition</div>
+      <div class="talk-location">Roskilde, Denmark · May 2025</div>
+      <span class="talk-type">Poster</span>
     </div>
   </div>
 
   <div class="talk-item">
     <div class="talk-year">2024</div>
     <div class="talk-body">
-      <div class="talk-title">[Title of your talk or poster]</div>
-      <div class="talk-venue">[Conference name]</div>
-      <div class="talk-location">[City, Country]</div>
+      <div class="talk-title">PSL Soft Matter Day</div>
+      <div class="talk-venue">PSL Soft Matter Day</div>
+      <div class="talk-location">Paris, France · July 2024</div>
       <span class="talk-type">Poster</span>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2024</div>
+    <div class="talk-body">
+      <div class="talk-title">The Triple Point of Failure in Glasses and Gels</div>
+      <div class="talk-venue">The Triple Point of Failure in Glasses and Gels</div>
+      <div class="talk-location">Paris, France · June 2024</div>
+      <span class="talk-type">Talk</span>
     </div>
   </div>
 
@@ -328,7 +383,7 @@ In this project we propose to use the newly developed numerical approaches to sy
   <div class="contact-item">
     <div class="contact-label">ORCID</div>
     <div class="contact-value">
-      <a href="#" target="_blank" rel="noopener">0000-0000-0000-0000</a>
+      <a href="https://orcid.org/0009-0005-7386-1738" target="_blank" rel="noopener">0009-0005-7386-1738</a>
     </div>
   </div>
   <div class="contact-item">
