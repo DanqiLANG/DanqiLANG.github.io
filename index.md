@@ -13,7 +13,7 @@ title: Danqi Lang
 <p class="section-label">About</p>
 <div class="about-grid">
   <div class="photo-wrap">
-    <img src="photo.jpeg" alt="Danqi Lang">
+    <img src="photo.jpeg" alt="Danqi Lang" style="max-width:160px; width:100%; border-radius:4px;">
   </div>
 
 
@@ -71,10 +71,6 @@ In this project we propose to use the newly developed numerical approaches to sy
 
 <img class="project-img" src="research/glass-transition.mp4" alt="Glass transition simulation">
 
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/glass-transition.mp4</span>
-  </div>
-
   </div>
 
 
@@ -103,9 +99,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     </p>
 <img class="project-img" src="research/active-gel.jpg" alt="Active gel model">
 
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/active-gel.jpg</span>
-  </div>
   </div>
 
   <!-- ── Institut Curie ── -->
@@ -129,11 +122,6 @@ In this project we propose to use the newly developed numerical approaches to sy
       <a href="https://institut-curie.org/person/carles-blanch-mercader" target="_blank" rel="noopener">Dr. Carles Blanch Mercader</a>
     </p>
 
-  <!-- IMAGE: drop cochlea.jpg into research/ folder, then replace these 3 lines with:
-       <img class="project-img" src="research/cochlea.jpg" alt="Cochlea model"> -->
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/cochlea.jpg</span>
-  </div>
   </div>
 
   <!-- ── ESPCI internship ── -->
@@ -159,10 +147,6 @@ In this project we propose to use the newly developed numerical approaches to sy
       <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.055415" target="_blank" rel="noopener">PRE 111, 055415 (2025)</a>
     </p>
 <img class="project-img" src="research/excitations-lfs.jpg" alt="Excitations and LFS">
-
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/excitations-lfs.jpg</span>
-  </div>
   </div>
 
   <!-- ── Roskilde ── -->
@@ -188,10 +172,6 @@ In this project we propose to use the newly developed numerical approaches to sy
       <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.025420" target="_blank" rel="noopener">PRE 111, 025420 (2025)</a>
     </p>
 <img class="project-img" src="research/nvu-polydisperse.jpg" alt="NVU polydisperse LJ">
-
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/nvu-polydisperse.jpg</span>
-  </div>
   </div>
 
   <!-- ── Zhejiang / IDP ── -->
@@ -217,9 +197,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     </p>
 
  <img class="project-img" src="index.assets/link-node-idp.jpg" alt="Link node in IDP">
-  <div class="project-img-wrap">
-    <span class="project-img-hint">research/link-node-idp.jpg</span>
-  </div>
   </div>
 
 </div>
@@ -308,7 +285,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2026</div>
     <div class="talk-body">
       <div class="talk-title">Women in Nonequilibrium Statistical Physics</div>
-      <div class="talk-venue">Women in Nonequilibrium Statistical Physics</div>
       <div class="talk-location">Leuven, Belgium · September 2026</div>
       <span class="talk-type">Talk</span>
     </div>
@@ -318,7 +294,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2026</div>
     <div class="talk-body">
       <div class="talk-title">PSL Soft Matter Day</div>
-      <div class="talk-venue">PSL Soft Matter Day</div>
       <div class="talk-location">Paris, France · July 2026</div>
       <span class="talk-type">Poster</span>
     </div>
@@ -328,7 +303,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2026</div>
     <div class="talk-body">
       <div class="talk-title">Viscous Liquids and the Glass Transition</div>
-      <div class="talk-venue">Viscous Liquids and the Glass Transition</div>
       <div class="talk-location">Roskilde, Denmark · May 2026</div>
       <span class="talk-type">Talk</span>
     </div>
@@ -338,7 +312,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2026</div>
     <div class="talk-body">
       <div class="talk-title">Journées de Physique Statistique</div>
-      <div class="talk-venue">Journées de Physique Statistique</div>
       <div class="talk-location">Paris, France · January 2026</div>
       <span class="talk-type">Flash talk</span>
     </div>
@@ -348,7 +321,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2025</div>
     <div class="talk-body">
       <div class="talk-title">PC2-2025: Active Matter — the Synergy between Maths and Physics</div>
-      <div class="talk-venue">PC2-2025 Active Matter</div>
       <div class="talk-location">France · May–June 2025</div>
       <span class="talk-type">Poster</span>
     </div>
@@ -358,7 +330,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2025</div>
     <div class="talk-body">
       <div class="talk-title">Viscous Liquids and the Glass Transition</div>
-      <div class="talk-venue">Viscous Liquids and the Glass Transition</div>
       <div class="talk-location">Roskilde, Denmark · May 2025</div>
       <span class="talk-type">Poster</span>
     </div>
@@ -368,7 +339,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2024</div>
     <div class="talk-body">
       <div class="talk-title">PSL Soft Matter Day</div>
-      <div class="talk-venue">PSL Soft Matter Day</div>
       <div class="talk-location">Paris, France · July 2024</div>
       <span class="talk-type">Poster</span>
     </div>
@@ -378,7 +348,6 @@ In this project we propose to use the newly developed numerical approaches to sy
     <div class="talk-year">2024</div>
     <div class="talk-body">
       <div class="talk-title">The Triple Point of Failure in Glasses and Gels</div>
-      <div class="talk-venue">The Triple Point of Failure in Glasses and Gels</div>
       <div class="talk-location">Paris, France · June 2024</div>
       <span class="talk-type">Talk</span>
     </div>
